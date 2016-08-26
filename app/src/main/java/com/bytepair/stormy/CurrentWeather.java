@@ -65,6 +65,7 @@ public class CurrentWeather {
         return iconId;
     }
 
+    // round, cast to int, and return int to fit the screen
     public int getTemperature() {
         return (int) Math.round(mTemperature);
     }
