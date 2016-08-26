@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // bind butterknife to this
+        // bind ButterKnife to this
         ButterKnife.bind(this);
 
         // hide progress bar when page loads
